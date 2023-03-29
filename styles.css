@@ -1,0 +1,131 @@
+body {
+    background-color: #e9edc9;
+    text-align: center;
+    margin: auto;
+    font-family: 'Bona Nova', serif;
+}
+
+#imagem_perfil {
+    display: block;
+    margin: 0px auto;
+    width: 15%;
+    border-radius: 100%;
+}
+
+h1 {
+    color: #333d29;
+    text-align: center;
+    font-weight: bold 700;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #414833;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.resumo {
+    color: #7f4f24;
+    text-align: center;
+    font-weight: 530;
+    font-size: 20px;
+    line-height: 130%;
+    padding-block: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #606c38;
+
+}
+
+h3 {
+    color: #656d4a;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.subtitulo_primario {
+    color: #414833;
+    text-align: center;
+}
+
+.subtitulo_secundario {
+    color: #656d4a;
+    text-align: center;
+}
+
+#lista-hab {
+    color: #7f4f24;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+}
+
+td {
+    color: #bc6c25;
+    font-size: 20px;
+    align: center;
+    border: 1px;
+    border-style: inset;
+    border-color: #606c38;
+    line-height: 200%;
+}
+
+th {
+    align: center;
+    border: 1px;
+    border-style: inset;
+    border-color: #606c38;
+    line-height: 200%;
+}
+
+.titulotabela {
+    color: #3a5a40;
+    box-align: center;
+    font-size: 20px;
+    border: 1px;
+    border-color: #606c38;
+    line-height: 200%;
+}
+
+label {
+    color: #283618;
+    text-align: center;
+    font-size: 20px;
+    line-height: 250%;
+}
+
+.botao {
+
+    color: #283618;
+    font-size: 15px;
+    border: 1px;
+    border-style: outset;
+    border-radius: 25px;
+    background-color: #f7a072;
+}
+
+#titulo1 {
+    color: #283618;
+    text-align: center;
+    font-size: 20px;
+}
+
+#titulo2 {
+    color: #283618;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+   color: #bc6c25;
+}
+
+.copyright {
+    color: black;
+    text-align: center;
+    font-size: small;
+}
