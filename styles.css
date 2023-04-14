@@ -1,15 +1,17 @@
 body {
     background-color: #f5ebe0;
-    text-align: center;
-    margin: 0 auto;
     font-family: 'Bona Nova', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
 #imagem_perfil {
-    display: block;
+    display: flex;
     margin: 0 auto;
     width: 15%;
-    border-radius: 100%;
+    border-radius: 80px;
 }
 
 h1 {
@@ -17,6 +19,7 @@ h1 {
     font-weight: bold 700;
     font-size: 45px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
@@ -24,6 +27,8 @@ h2 {
     text-align: center;
     font-weight: 600;
     font-size: 35px;
+    margin-top: 2px;
+    margin-bottom: 5%;
 }
 
 h3 {
@@ -42,11 +47,15 @@ h3 {
     color: #7f4f24;
     font-weight: 530;
     font-size: 20px;
-    line-height: 130%;
+    line-height: 15%;
     padding-block: 10px;
     border: 1px;
     border-style: solid;
     border-color: #606c38;
+    text-align: center;
+    width: 1000px;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
 
 }
 
@@ -61,6 +70,12 @@ h3 {
 
 .subtitulo_secundario {
     color: #656d4a;
+    text-align: center;
+}
+
+.tabela {
+    display: flex;
+    margin-left: 11.5%;
 }
 
 .mae {
@@ -70,32 +85,38 @@ h3 {
     color: #283618;
     font-size: 20px;
     align-items: center;
-    margi
-    width: 20%;
     padding: 25px;
     line-height: 90%;   
 }
 
 .filha td {
     color: #bc6c25;
-    font-size: 22px;
+    font-size: 24px;
     border: 1px;
     border-style: solid;
     border-color: #606c38;
-    width: 30%;
     padding: 10px;
     line-height: 20px;
+    text-align: center;
 }
 
-label {
-    color: #283618;
+.container-contato {
+    color: #bc6c25;
     font-size: 20px;
-    line-height: 250%;
+    font-weight: 700;
+    line-height: 200%;
     padding: 4px;
+    display: flex;
+    margin-left: 38%;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
 }
 
 .botao {
-
     color: #283618;
     font-size: 15px;
     border: 1px;
@@ -104,24 +125,29 @@ label {
     background-color: #fec89a;
 }
 
-a {
-   color: #bc6c25;
-   font-size: 23px;
-}
-
-.rede-social {
+.link {
+    font-size: 23px;
+    font-weight: 500;
+    color: #bc6c25;
     text-decoration: none;
+    text-align: center;
 }
 
 .logo {
     width: 30px;
+    margin-left: 39%;
 }
 
 .copyright {
     color: black;
     font-size: small;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    margin-top: 4%;
 }
 
+/*
 table > thead > th{
-
-} 
+}
+*/
